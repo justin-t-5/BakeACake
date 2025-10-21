@@ -10,7 +10,7 @@ export const createCake = async (req,res) => {
     const result = await pool.query(`
         INSERT INTO cakes (flavor, frosting, toppings, size, price, image)
         VALUES ($1, $2, $3, $4, $5, $6) RETURNING *`,
-        [flavor, frosting, toppings, size, price, image]);
+         [flavor, [frosting], [toppings], size, price, image]);
         res.status(201).json(result.rows[0]);
 }
 
@@ -19,7 +19,7 @@ export const updateCake = async (req,res) => {
     const {flavor, frosting, toppings, size, price, image} = req.body;
     const result = await pool.query(`
         UPDATE cakes SET flavor=$1,frosting=$2,toppings=$3,size=$4,price=$5,image=$6 WHERE id=$7`,
-        [flavor,frosting,toppings,size, price, image,id])
+         [flavor, [frosting], [toppings], size, price, image,id]);
         res.status(200).json(result.rows[0])
 }
 

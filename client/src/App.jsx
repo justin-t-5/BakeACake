@@ -1,41 +1,27 @@
-import React from 'react'
-import { useRoutes } from 'react-router-dom'
-import Navigation from './components/Navigation'
-import ViewCakes from './pages/ViewCakes'
-import EditCake from './pages/EditCake'
-import CreateCake from './pages/CreateCake'
-import CakeDetails from './pages/CakeDetails'
-import './App.css'
+import React from 'react';
+import { useRoutes } from 'react-router-dom';
+import Navigation from './components/Navigation';
+import ViewCakes from './pages/ViewCakes';
+import EditCake from './pages/EditCake';
+import CreateCake from './pages/CreateCake';
+import CakeDetails from './pages/CakeDetails';
+import './App.css';
 
 const App = () => {
-  let element = useRoutes([
-    {
-      path: '/',
-      element: <CreateCake title='BakeACake | Customize' />
-    },
-    {
-      path:'/customcars',
-      element: <ViewCakes title='BakeACake | Custom Cakes' />
-    },
-    {
-      path: '/customcars/:id',
-      element: <CakeDetails title='BakeACake | View' />
-    },
-    {
-      path: '/edit/:id',
-      element: <EditCake title='BakeACake | Edit' />
-    }
-  ])
+  const element = useRoutes([
+    { path: '/', element: <CreateCake /> },
+    { path: '/cakes', element: <ViewCakes /> },
+    { path: '/cakes/new', element: <CreateCake /> },
+    { path: '/cakes/:id', element: <CakeDetails /> },
+    { path: '/cakes/:id/edit', element: <EditCake /> }
+  ]);
 
   return (
-    <div className='app'>
-
+    <div className="app">
       <Navigation />
-
-      { element }
-
+      {element}
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

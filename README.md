@@ -42,10 +42,8 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented required features:
 ![ScreenRecording2025-10-21230945-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/f726057c-3775-4ea9-8688-51cc7300da3a)
 ![ScreenRecording2025-10-21231147-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/9e023af2-70c9-4dc2-b8ea-b73b41b9b41f)
+![ScreenRecording2025-10-22193426-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/856bb076-dcb1-4677-8683-6a3814940f98)
 
-<img width="1415" height="1708" alt="Screenshot 2025-10-21 232456" src="https://github.com/user-attachments/assets/1ecd8dea-bcf6-4762-af16-088797e6a077" />
-
-<img width="2044" height="1840" alt="Screenshot 2025-10-21 232512" src="https://github.com/user-attachments/assets/0faa1f81-c942-4464-9d38-5f088f1f86f7" />
 
 
 src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
@@ -57,7 +55,6 @@ ezgif
 
 Describe any challenges encountered while building the app or any additional context you'd like to add.
 
-The database was working fine as it recieved and returned information accordingly, but issues arose when I tried to access it to see the tables because the terminal, command prompt, and powershell would not allow me type or my password was incorrect so I could not return a gif of the PSQL cakes table. Above are images that prove the data was being sent and  recieved and issues with psql.
 
 ## License
 

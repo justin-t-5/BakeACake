@@ -61,6 +61,7 @@ ezgif
 ## Notes
 
 Describe any challenges encountered while building the app or any additional context you'd like to add.
+
 I had an error making my gifs so in my original submission it cut off before showing off all implemeneted features.
 
 

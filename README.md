@@ -40,7 +40,8 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
-![ScreenRecording2025-10-21230945-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/f726057c-3775-4ea9-8688-51cc7300da3a)
+![ScreenRecording2025-10-23220924-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/1625d5e7-814f-4d41-adbb-e690cb78ec69)
+![ScreenRecording2025-10-23220924-ezgif com-video-to-gif-converter (1)](https://github.com/user-attachments/assets/da305d0c-33d8-4f88-878d-2cfb985c3df4)
 ![ScreenRecording2025-10-21231147-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/9e023af2-70c9-4dc2-b8ea-b73b41b9b41f)
 ![ScreenRecording2025-10-22193426-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/856bb076-dcb1-4677-8683-6a3814940f98)
 

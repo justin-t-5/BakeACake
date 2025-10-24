@@ -1,0 +1,42 @@
+.subhead{
+    background-color: rgba(213, 93, 24, 0.8);
+    color:white;
+}
+
+.list a{
+    color:rgb(255, 255, 255);
+    background-color: rgba(213, 93, 24, 0.8);
+    padding:10px;
+    border-radius:20px;
+    margin-left:10px;
+    margin-right:10px;
+
+}
+
+.list .title{
+    background-color:rgb(12, 183, 246);
+    border-radius:5px;
+    margin:100px;
+}
+.list li{
+    background-color:rgb(49, 153, 191);
+    padding:40px 100px 40px 100px;
+    margin:20px;
+    display:flex;
+    border-radius:30px;
+    align-items:center;
+}
+.list img{
+    height: 150px;
+    border-radius:30px;
+}
+.list button{
+    border-radius:30px;
+    padding:10px;
+    background-color:rgba(213, 93, 24, 0.8);
+}
+.list{
+    display:flex;
+    flex-direction:column-reverse;
+    align-items:center;
+}

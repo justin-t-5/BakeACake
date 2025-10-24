@@ -1,0 +1,11 @@
+.error{
+    background-color:red;
+    color:white;
+    font-weight:bolder;
+    font-size:larger;
+}
+
+h1{
+    background-color: rgba(213, 93, 24, 0.8);
+    color:black;
+}

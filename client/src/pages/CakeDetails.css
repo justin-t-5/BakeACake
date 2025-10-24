@@ -1,0 +1,15 @@
+.details{
+    background-color:rgb(49, 153, 191);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
+    margin:50px 250px 50px 250px;
+    padding: 40px 0px 40px 0px;
+    border-radius:50px;
+}
+
+.details img{
+    border-radius:30px;
+}
